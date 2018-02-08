@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="gamepp.exe" version="1.0.0.0" publicKeyToken="f8a58a05e7b3ecaf" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="gamepp" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="gamepp.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="gamepp.exe" size="41448">
+      <assemblyIdentity name="gamepp" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>vp+oasFX2luyGgK7dYpdqEUPujHNUNOnEhi1koWOLs4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="gamepp.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6N7MliNbVJSIAIPrecIshMbZ7zEoKLr5SQvud4LDUOw=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=PALLAVI\Pallavi Mandal" issuerKeyHash="b1785a774d1cc12b58446c46143791b46e71fe46" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>ZMmo5nXDwAGPNQVfSp6H062d4c9C34g5KvpHCv7tsu4=</DigestValue></Reference></SignedInfo><SignatureValue>m2gceT8pe6Df/zdQxvDw4LCG3NMzo2wuBWdDrv3d17/E5ctkwMJXlmh2gmpnySwqRRTgwKjYzCYXBNCwwG8THoJwkqaCBdkG3OpmY8vp6rzcWdhXb4Evlo5TU/u/9UK0xBWBPqYHMJKaiEe+LDdGeKF+ydqxoXXK0mkMu1PJERY=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>z5el/gSPGs2EK+MPA0I8NRo1dy/eP5ODU3Z8ZV0/QLd0/luODfMFH2w/O4aSj7H0mWosJOGTOLK+wNTh4lH7iUEdNY7fuQ+3dqDGdYb2G8QixKw5cQY7S160b+J3pb+RspJTaJb6zsjB0wn8XXXx6YyzbFM3zC58MS/ixp7LOB0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="eeb2edfe0a47fa2a3988df42cfe19dadd3879e4a5f05358f01c0c375e6a8c964" Description="" Url=""><as:assemblyIdentity name="gamepp.exe" version="1.0.0.0" publicKeyToken="f8a58a05e7b3ecaf" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=PALLAVI\Pallavi Mandal</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>yYVflvN4znpG2r9YWvWwp4mvlEmWVFFVUaidxcwF43k=</DigestValue></Reference></SignedInfo><SignatureValue>zFJAeMY3wevbtyRAYwMJc4+H4Ko2088BbavdHLLbV56G0yeBjw/x3o0DhJp3IxJcFyiczvzmtxzunHymzw/+5e4XqMhWWVr4UmycIGecfCL/6+jTZsVToYtwfd8+zf65wTDwKIkUOvHbTR+GasMWvyJSImoOzX1vf+xPLlMNffc=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>z5el/gSPGs2EK+MPA0I8NRo1dy/eP5ODU3Z8ZV0/QLd0/luODfMFH2w/O4aSj7H0mWosJOGTOLK+wNTh4lH7iUEdNY7fuQ+3dqDGdYb2G8QixKw5cQY7S160b+J3pb+RspJTaJb6zsjB0wn8XXXx6YyzbFM3zC58MS/ixp7LOB0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB8TCCAVqgAwIBAgIQWvzYriS0sIZCT5desu9LzDANBgkqhkiG9w0BAQsFADA3MTUwMwYDVQQDHiwAUABBAEwATABBAFYASQBcAFAAYQBsAGwAYQB2AGkAIABNAGEAbgBkAGEAbDAeFw0xNzEyMTcwNTA0MjNaFw0xODEyMTcxMTA0MjNaMDcxNTAzBgNVBAMeLABQAEEATABMAEEAVgBJAFwAUABhAGwAbABhAHYAaQAgAE0AYQBuAGQAYQBsMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDPl6X+BI8azYQr4w8DQjw1GjV3L94/k4NTdnxlXT9At3T+W44N8wUfbD87hpKPsfSZaiwk4ZM4sr7A1OHiUfuJQR01jt+5D7d2oMZ1hvYbxCLErDlxBjtLXrRv4nelv5GyklNolvrOyMHTCfxddfHpjLNsUzfMLnwxL+LGnss4HQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBALdzUUjqrVCApdMsYGB+kz4XLO4pENKHZx2wywai84TGl2klFw41+bjpLtnOQhBPHJe6FQDIORb+yUakGWlnHRnsBCBl+lsoGPwQ8EzX3ssCKmkrhAJiUllXnNphXfcH+YaOZJDwRFdUpMrZzWc9gitZhblvson29p1I4xSg2t83</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
